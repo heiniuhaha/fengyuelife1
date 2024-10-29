@@ -1,0 +1,10 @@
+# 忽略构建输出目录
+dist
+build
+
+# 忽略依赖目录
+node_modules
+
+# 其他忽略文件
+.cache
+.env
