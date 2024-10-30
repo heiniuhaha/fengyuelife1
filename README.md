@@ -24,3 +24,24 @@ Currently, two official plugins are available:
 ## 域名配置
 
 - [阿里云域名控制台](https://dns.console.aliyun.com/?spm=5176.12818093_-1363046575.console-base_search-panel.dtab-product_dns.26d016d0HdzaCC#/dns/setting/fengyue.life)
+
+## 环境变量配置
+
+- .dev.vars 配置开发环境变量
+- 通过cloudflare平台上 配置生产环境变量
+
+## 配置shadcn/ui
+
+- tsconfig.json 配置路径别名
+- tsconfig.app.json 配置路径别名
+- 参考文档 https://ui.shadcn.com/docs/installation/vite
+
+- 安装shadcn/ui：npm i @shadcn/ui
+- 生成组件：npx shadcn-ui@latest add button
+
+## 参考文档
+
+- [React](https://react.dev/learn/start-a-new-react-project)
+- [Vite](https://vitejs.dev/guide/)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [Cloudflare Pages](https://developers.cloudflare.com/pages/)

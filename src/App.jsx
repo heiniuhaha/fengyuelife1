@@ -21,7 +21,7 @@ function App() {
           <div className="space-y-4 pt-6 text-center md:p-8 md:pb-0">
             <blockquote>
               <p className="text-lg font-medium">
-                &quot;The first test site of Fengyue, moving towards the future!&quot;
+                &quot;The first test site of FengYue, moving towards the future!&quot;
               </p>
             </blockquote>
             <figcaption className="font-medium">
@@ -34,7 +34,13 @@ function App() {
         </figure>
       </div>
 
-      <h1 className="text-3xl font-bold underline">fengyue.life，Hello world!</h1>
+      <h1 className="text-3xl font-bold underline">
+        fengyue.life，Hello world!
+        <br />
+        {process.env.VITE_QWEN_API_KEY || '未找到API KEY'}
+        <br />
+        {console.log('环境变量:', process.env)}
+      </h1>
       <div className="flex flex-row items-center justify-center">
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
