@@ -21,7 +21,7 @@ function App() {
           <div className="space-y-4 pt-6 text-center md:p-8 md:pb-0">
             <blockquote>
               <p className="text-lg font-medium">
-                "11111The first test site of Fengyue, moving towards the future"
+                &quot;The first test site of Fengyue, moving towards the future!&quot;
               </p>
             </blockquote>
             <figcaption className="font-medium">
